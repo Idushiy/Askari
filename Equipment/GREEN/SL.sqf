@@ -10,7 +10,7 @@ REMOVEGEAR();
 _unit addHeadgear "LOP_H_Turban";
 _unit forceAddUniform "LOP_U_ISTS_Fatigue_02";
 _unit addBackpack "rhs_sidor";
-
+_unit addGoggles "TRYK_Beard_BK4";
 
 GRENADES_STD();
 
