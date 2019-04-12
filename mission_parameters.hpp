@@ -6,7 +6,8 @@ prepareZoneSize = 90;
 
 // Противоборствующие стороны ("WEST", "EAST", "INDEPENDENT")
 blueforSide = "WEST";
-opforSide =  "INDEPENDENT";
+opforSide =  "EAST";
+independentSide =  "INDEPENDENT";
 
 // Интро (0 - нет, 1 - да)
 UAVIntro = 0;

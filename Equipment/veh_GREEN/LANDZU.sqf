@@ -1,7 +1,5 @@
 ﻿_veh = _this select 0;
 
-_veh addMagazineCargoGlobal ["rhs_mag_100rnd_127x99_mag", 3];
-
 _veh addItemcargoglobal ["ACE_morphine", 3]; 
 _veh addItemcargoglobal ["ACE_fieldDressing", 12]; 
 _veh addItemCargoGlobal ["ACE_elasticBandage", 8];
@@ -21,3 +19,4 @@ _veh addItemcargoGlobal ["rhs_mag_rdg2_white",5];
 _veh addBackpackCargoGlobal ["rhs_sidor",1];
 _veh addItemcargoGlobal ["ACE_EarPlugs",1];
 
+_veh addItemcargoGlobal ["BN_40Rnd_23mm", 4];

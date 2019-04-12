@@ -31,10 +31,11 @@ _unit addVest "rhs_6b23_ML_6sh92";
 	for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_30Rnd_762x39mm_tracer";};
 	
 _unit addBackpack "rhs_sidor";
-	for "_i" from 1 to 1 do {_unit addItemToBackpack "rhs_weap_rshg2";};
-	
+
 _unit addWeapon "rhs_weap_akm";
-_unit addWeapon "rhs_weap_rpg26";
+_unit addPrimaryWeaponItem "pzn_acc_plamyagas";
+
+_unit addWeapon "rhs_weap_rpg18";
 	
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";

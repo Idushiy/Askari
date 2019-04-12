@@ -11,10 +11,10 @@ RANDOM_HEAD();
 
 
 _unit forceAddUniform "LOP_U_AM_Fatigue_01";
-
+_unit addVest "LOP_6sh46";
 GRENADES_STD();
 
-_unit addVest "LOP_6sh46";
+
 	for "_i" from 1 to 5 do {_unit addItemToVest "rhs_pzn_75Rnd_762x39mm_89";};
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_pzn_75Rnd_762x39mm_tracer";};
 

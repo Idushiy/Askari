@@ -40,6 +40,7 @@ _unit addBackpack "rhs_sidor";
 	for "_i" from 1 to 6 do {_unit addItemToBackpack "rhs_GDM40";};
 	
 _unit addWeapon "rhs_weap_akm_gp25";
+_unit addPrimaryWeaponItem "pzn_acc_plamyagas";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";

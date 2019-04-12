@@ -26,21 +26,21 @@ _unit forceAddUniform "rhs_uniform_m88_patchless";
 
 	
 _unit addVest "rhs_6b23_ML_6sh92";
-
+_unit addBackpack "TRYK_B_Alicepack";
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rgd5";};
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rdg2_white";};
 
 	for "_i" from 1 to 4 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
 	for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_30Rnd_762x39mm_tracer";};
-	for "_i" from 1 to 3 do {_unit addItemToVest "RH_8Rnd_9x18_Mak";};
+	for "_i" from 1 to 2 do {_unit addItemToBackpack "RH_8Rnd_9x18_Mak";};
 
-	
-_unit addBackpack "TRYK_B_Alicepack";
+
 for "_i" from 1 to 2 do {_unit addItemToBackpack "SatchelCharge_Remote_Mag";};
 for "_i" from 1 to 2 do {this addItemToBackpack "ACE_Clacker";};
 for "_i" from 1 to 2 do {this addItemToBackpack "ACE_DefusalKit";};
 
 _unit addWeapon "rhs_weap_akm";
+_unit addPrimaryWeaponItem "pzn_acc_plamyagas";
 _unit addWeapon "RH_mak";
 	_unit addHandgunItem "RH_pmsd";
 	

@@ -20,3 +20,4 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 _unit addWeapon "Binocular";
+

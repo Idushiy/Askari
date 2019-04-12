@@ -14,6 +14,8 @@ removeGoggles _unit;
 
 _unit addHeadgear "rhs_zsh7a_mike";
 _unit forceAddUniform "rhs_uniform_m88_patchless";
+
+_unit addVest "LOP_6sh46";
 	for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 	for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_fieldDressing";};
 	for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_elasticBandage";};
@@ -24,7 +26,7 @@ _unit forceAddUniform "rhs_uniform_m88_patchless";
 
 
 
-_unit addVest "LOP_6sh46";
+
 
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rdg2_white";};
 	for "_i" from 1 to 3 do {_unit addItemToVest "rhs_30Rnd_545x39_7N6_AK";};

@@ -13,7 +13,7 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 _unit addHeadgear "H_Booniehat_tan";
-
+_unit addBackpack "rhs_sidor";
 _unit forceAddUniform "rhs_uniform_m88_patchless";
 	for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 	for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_fieldDressing";};
@@ -30,15 +30,16 @@ _unit addVest "rhs_6b23_ML_6sh92_vog";
 	for "_i" from 1 to 4 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
 	for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_30Rnd_762x39mm_tracer";};
 
-_unit addBackpack "rhs_sidor";
+
 	for "_i" from 1 to 11 do {_unit addItemToBackpack "rhs_VOG25";};
-	for "_i" from 1 to 3 do {_unit addItemToBackpack "RH_8Rnd_9x18_Mak";};
+	for "_i" from 1 to 2 do {_unit addItemToBackpack "RH_8Rnd_9x18_Mak";};
 	for "_i" from 1 to 6 do {_unit addItemToBackpack "rhs_GDM40";};
 	
 _unit addWeapon "rhs_weap_akm_gp25";
+_unit addPrimaryWeaponItem "rhs_acc_pbs1";
 _unit addWeapon "RH_mak";
 	_unit addHandgunItem "RH_pmsd";
-_unit addWeapon "rhs_weap_rpg26";
+_unit addWeapon "rhs_weap_rpg18";
 	
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";

@@ -7,13 +7,12 @@
 car1 setHitPointDamage ["HitLFWheel", 1.0];
 car1 setHitPointDamage ["HitRFWheel", 1.0];
 
-
 flags = [flag1];
-aliveKo = [ko_1, ko_2, ko_3, ko_4, ko_5];
+aliveKo = [ko_1, ko_2, ko_3, ko_4, ko_5, ko_6];
 
 {
 	_x setVariable ["controledBy", west, true];
-	//_x setFlagTexture "img\usa.jpg"
+	//_x setFlagTexture "img\usa.jpg";
 } forEach flags;
 
 
@@ -24,7 +23,9 @@ aliveKo = [ko_1, ko_2, ko_3, ko_4, ko_5];
 					if (({_x in list home} count [ko_1]) == 1) then {
 					{deleteMarker _x} forEach ["a_1"];
 					sleep 2;
-					//["<t color='#fafc97' size = '.8'>Штаб на базе",1.1,-0.24,4,1,0,789] spawn BIS_fnc_dynamicText;
+					  if (playerSide == west) then {
+					  ["<t color='#fafc97' size = '.8'>Штаб на базе",0.9,-0.15,4,1,0,789] spawn BIS_fnc_dynamicText;
+					};
 			};
 	};
 

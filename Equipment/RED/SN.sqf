@@ -28,10 +28,11 @@ _unit addVest "rhs_6b23_ML_6sh92";
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rgd5";};
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rdg2_white";};
 	for "_i" from 1 to 6 do {_unit addItemToVest "rhs_10Rnd_762x54mmR_7N1";};
-	for "_i" from 1 to 3 do {_unit addItemToVest "RH_8Rnd_9x18_Mak";};
+	for "_i" from 1 to 2 do {_unit addItemToVest "RH_8Rnd_9x18_Mak";};
 	
 _unit addWeapon "rhs_weap_svdp_wd";
-	_unit addPrimaryWeaponItem "rhs_acc_pso1m2";  
+	_unit addPrimaryWeaponItem "rhs_acc_pso1m2";
+	_unit addPrimaryWeaponItem "rhs_acc_tgpv";
 _unit addWeapon "RH_mak";
 	_unit addHandgunItem "RH_pmsd";
 	

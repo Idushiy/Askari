@@ -50,15 +50,17 @@ if (isServer) then {
 	};
 };
 
-
 // подсчитывает потери
 [] spawn {
 	waitUntil { sleep 10; a3a_var_started};
-		//if (independent countside playableUnits < 5) then {[" <t color='#fafc97'>Талибы разбиты! База под контролем!", west] call a3a_fnc_endMission;};
-		//if (west countside playableUnits < 1) then {[" <t color='#fafc97'>Американцы разбиты! База беззащитна", independent] call a3a_fnc_endMission;};
+	  private _west = west countside playableUnits;
+	  private _independent = independent countside playableUnits;
+		//if (_independent < 5) then {[" <t color='#fafc97'>Талибы разбиты! База под контролем!", west] call a3a_fnc_endMission;};
+		//if (_west < 1) then {[" <t color='#fafc97'>Американцы разбиты! База беззащитна", independent] call a3a_fnc_endMission;};
+		//if ((_independent * 3) < _west) then {[" <t color='#fafc97'>Талибы разбиты! У обороны 3х кратное превосходство!", west] call a3a_fnc_endMission;};
 		false
 };
 
 //приветствие после фриз-тайма
 waitUntil{sleep 28; a3a_var_started};
-["Серьезные игры","Аскари", "Где-то в жарких странах"] spawn BIS_fnc_infoText;
+["Серьезные игры","Аскари"] spawn BIS_fnc_infoText;

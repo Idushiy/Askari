@@ -12,7 +12,7 @@ if (playerside == independent) then
 		{},
 		{_target setVariable ["controledBy", independent, true]; [_target, "ca\ca_e\data\flag_tkm_co.paa"] remoteExec ["setFlagTexture", _target]; [_target, 1] call BIS_fnc_animateFlag},
 		{[_target, 1] call BIS_fnc_animateFlag;},
-		[],13,0,false,false] call BIS_fnc_holdActionAdd;
+		[],15,0,false,false] call BIS_fnc_holdActionAdd;
 	} forEach _flags;
 }
 else
@@ -28,6 +28,6 @@ else
 		{},
 		{_target setVariable ["controledBy", west, true]; [_target, "img\usa.jpg"] remoteExec ["setFlagTexture", _target]; [_target, 1] call BIS_fnc_animateFlag},
 		{[_target, 1] call BIS_fnc_animateFlag;},
-		[],13,0,false,false] call BIS_fnc_holdActionAdd;
+		[],15,0,false,false] call BIS_fnc_holdActionAdd;
 	} forEach _flags;
 };

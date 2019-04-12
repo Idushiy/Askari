@@ -32,10 +32,11 @@ _unit addBackpack "tf_mr3000_multicam";
 	for "_i" from 1 to 4 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
 	for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_30Rnd_762x39mm_tracer";};
 
-	for "_i" from 1 to 2 do {_unit addItemToVest "RH_8Rnd_9x18_Mak";};
+	for "_i" from 1 to 2 do {_unit addItemToBackpack "RH_8Rnd_9x18_Mak";};
 	
  _unit addWeapon "rhs_weap_akm";
-	_unit addPrimaryWeaponItem "rhs_acc_1p29";
+_unit addPrimaryWeaponItem "rhs_acc_pbs1";
+
  _unit addWeapon "RH_mak";
 	_unit addHandgunItem "RH_pmsd";
 	
@@ -43,5 +44,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 _unit addWeapon "Binocular";
+
 
 

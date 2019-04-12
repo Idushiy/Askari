@@ -14,8 +14,7 @@ _veh addItemcargoglobal ["IEDLandSmall_Remote_Mag",2];
 _veh addItemcargoglobal ["ACE_Cellphone", 2];
 //_veh addItemcargoglobal ["SatchelCharge_Remote_Mag", 3];
 
-_veh addItemcargoglobal ["rhs_rpg7_PG7VL_mag", 2];  
-_veh addItemcargoglobal ["rhs_rpg7_OG7V_mag", 2];
+_veh addItemcargoglobal ["rhs_rpg7_PG7VL_mag", 4];
 _veh addItemcargoGlobal ["rhs_30Rnd_762x39mm",14];
 _veh addItemcargoGlobal ["rhs_30Rnd_762x39mm_tracer",8];
 _veh addItemcargoGlobal ["rhs_100Rnd_762x54mmR",5];

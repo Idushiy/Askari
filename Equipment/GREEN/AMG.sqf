@@ -12,14 +12,15 @@ RANDOM_HEAD();
 
 _unit forceAddUniform "LOP_U_TAK_Civ_Fatigue_04";
 
-GRENADES_STD();
+_unit addBackpack "rhs_sidor";
 	
 _unit addVest "LOP_6sh46";
+GRENADES_STD();
 	for "_i" from 1 to 6 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_30Rnd_762x39mm_tracer";};
 
 
-_unit addBackpack "rhs_sidor";
+
 	for "_i" from 1 to 3 do {_unit addItemToBackpack "rhs_100Rnd_762x54mmR";};
 
 RANDOM_AKM();

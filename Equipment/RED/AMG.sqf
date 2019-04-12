@@ -39,6 +39,7 @@ _unit addBackpack "rhs_sidor";
 	for "_i" from 1 to 3 do {_unit addItemToBackpack "rhs_100Rnd_762x54mmR";};
 	
 _unit addWeapon "rhs_weap_akm";
+_unit addPrimaryWeaponItem "pzn_acc_plamyagas";
 
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";

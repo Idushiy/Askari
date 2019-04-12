@@ -8,13 +8,12 @@ REMOVEWPNS();
 REMOVEGEAR();
 
 _unit addHeadgear "LOP_H_Turban";
-_unit forceAddUniform "LOP_U_ISTS_Fatigue_02";
+_unit forceAddUniform "TRYK_U_taki_G_BL";
 _unit addBackpack "rhs_sidor";
 _unit addGoggles "TRYK_Beard_BK4";
+_unit addVest "TAC_Jvest_GR2O";
 
 GRENADES_STD();
-
-_unit addVest "LOP_6sh46";
 	for "_i" from 1 to 6 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
 	for "_i" from 1 to 2 do {_unit addItemToVest "rhs_30Rnd_762x39mm_tracer";};
 
