@@ -7,6 +7,8 @@
 car1 setHitPointDamage ["HitLFWheel", 1.0];
 car1 setHitPointDamage ["HitRFWheel", 1.0];
 
+
+
 flags = [flag1];
 aliveKo = [ko_1, ko_2, ko_3, ko_4, ko_5, ko_6];
 

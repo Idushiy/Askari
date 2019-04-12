@@ -17,5 +17,17 @@ _veh addItemcargoGlobal ["rhs_mag_m18_purple", 6];
 _veh addItemcargoGlobal ["rhs_mag_m18_green", 6];
 _veh addItemcargoGlobal ["rhs_mag_m18_red", 6];
 _veh addItemcargoGlobal ["rhs_mag_m18_yellow", 6];
+
+_veh addItemcargoGlobal ["ACE_HandFlare_White", 6];
+_veh addItemcargoGlobal ["ACE_HandFlare_Yellow", 6];
+_veh addItemcargoGlobal ["ACE_HandFlare_Green", 6];
+_veh addItemcargoGlobal ["ACE_HandFlare_Red", 6];
+_veh addItemcargoGlobal ["rhs_mag_M585_white", 6];
+_veh addItemcargoGlobal ["rhs_mag_m661_green", 6];
+_veh addItemcargoGlobal ["rhs_mag_m662_red", 6];
+
+_veh addWeaponCargoGlobal ["rhs_weap_rsp30_white", 6];
+_veh addWeaponCargoGlobal ["rhs_weap_rsp30_green", 6];
+
 _veh addItemcargoGlobal ["rhs_weap_m72a7", 1];
 

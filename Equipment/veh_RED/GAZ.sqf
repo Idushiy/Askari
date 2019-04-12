@@ -13,6 +13,8 @@ _veh addItemCargoGlobal ["rhs_100Rnd_762x54mmR",10];
 _veh addItemCargoGlobal ["rhs_10Rnd_762x54mmR_7N1",10];
 _veh addItemcargoglobal ["SatchelCharge_Remote_Mag", 10];
 _veh addItemcargoglobal ["rhs_weap_rpg18", 2];
-_veh addWeaponCargoGlobal ["rhs_weap_rsp30_white", 8];
+_veh addWeaponCargoGlobal ["rhs_weap_rsp30_red", 6];
+_veh addWeaponCargoGlobal ["rhs_weap_rsp30_white", 6];
 
-_veh addBackpackCargoGlobal ["TRYK_B_Alicepack", 4];
+_veh addBackpackCargoGlobal ["tf_anprc155", 1];
+_veh addBackpackCargoGlobal ["TRYK_B_Alicepack", 2];

@@ -2,8 +2,9 @@
 
 ///подсчитываем дистанцию от маркера и наличие предмета у персонажа
 doc = false;
+
 while {isNil "srv_triggerFinished1"} do {
-  //if (("tu_decoration_log" in (items player)) then { "Land_Document_01_F" hideObject true;};
+  //if (("tu_decoration_log" in (items player)) then { doc hideObjectGlobal true;};
   if (("tu_decoration_log" in (items player)) && {(player distance (markerPos "place")) > 800}) then {
       if (playerSide == east) then {
       ["<t color='#fafc97' size = '.8'>Документы вынесли",0.9,-0.15,4,1,0,789] spawn BIS_fnc_dynamicText;
@@ -14,6 +15,7 @@ while {isNil "srv_triggerFinished1"} do {
   };
   sleep 5;
 };
+
 
 
 //подсчитываем уничтоженные вентили
